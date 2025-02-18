@@ -1,14 +1,9 @@
-import React, { useRef } from "react";
-import Form from "./Form";
-export default function Datos() {
+import React from 'react'
 
-    const nombre = useRef()
+export default function Datos() {
 return (
     <div>
-    <Form>
-        <input type="text" ref={nombre} placeholder="Nombre" />
-        <button onClick={() => alert(`Nombre: ${nombre.current.value}`)}>Submit</button>
-    </Form>
+    
     </div>
 )
 }
